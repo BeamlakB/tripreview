@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background: #cbc5cb;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header{
+	font-size: 20px;
+	background:rgb(212, 235, 240);
+	text-align:center;
+	padding-right: 20px 0;
+	
+}
+
+.center{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  width: 508px;
+  height: 55px;
+  background: #4654e1;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+}
+.center form {
+  background-color: #cbc5cb;
+  width: 500px;
+  height: 55px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.center form input{
+    all: unset;
+    font: 16px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 90%;
+    padding: 6px 10px;
+    border: #080913;
+}
+.center form button {
+  all: unset;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+}
+
+.center form svg {
+  color: #fff;
+  fill: currentColor;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+}
+
+.center form select option{
+     
+  all: unset;
+  font: 16px system-ui;
+  color: #fff;
+  height: 100%;
+  width: 90%;
+  padding: 6px 10px;
+  border: #080913;
+  border-radius: 5;
+}
